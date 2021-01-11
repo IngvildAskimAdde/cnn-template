@@ -2,22 +2,16 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "../../full_dataset_singleclass.h5",
+            "filename": "../../sample_dataset_xs.h5",
             "batch_size": 2,
-            "x_name": "input",
-            "y_name": "target",
+            "x_name": "x",
+            "y_name": "y",
             "batch_cache": 1,
             "shuffle": true,
-            "fold_prefix": "",
-            "train_folds": [
-                "train"
-            ],
-            "val_folds": [
-                "val"
-            ],
-            "test_folds": [
-                "test"
-            ],
+            "fold_prefix": "fold",
+            "train_folds": [0],
+            "val_folds": [1],
+            "test_folds": [2],
             "preprocessors": [
                 {
                     "class_name": "HounsfieldWindowingPreprocessor",
@@ -87,9 +81,9 @@
     },
     "input_params": {
         "shape": [
-            191,
-            265,
-            2
+            128,
+            128,
+            3
         ]
     },
     "model_params": {
