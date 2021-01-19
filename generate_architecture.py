@@ -42,7 +42,7 @@ if __name__ == "__main__":
     )
 
     # Densenet
-    generate_densenet_2d_json(
+    """generate_densenet_2d_json(
         '../architecture.json', # the filename
         n_upsampling=4, # number of downsampling layers (transition down step)
         n_filter=48,
@@ -77,4 +77,4 @@ if __name__ == "__main__":
         kernel=3,
         stride=2,
         n_class=2
-    )
+    )"""
