@@ -2,7 +2,7 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/Volumes/HARDDISK/MasterThesis/Oxy_cropped/traditionalSplit_Oxy.h5",
+            "filename": "/home/work/asln/hn_delin/traditionalSplit_Oxy.h5",
             "batch_size": 16,
             "x_name": "input",
             "y_name": "target_an",
