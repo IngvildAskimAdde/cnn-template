@@ -14,7 +14,7 @@ if __name__ == '__main__':
     Experiment(
         log_base_path='../../hn_perf/unet_test'
         ).from_full_config(
-        'config/2d_unet_MRI_Oxy_tradSplit_adam_0.0001_dice.json'
+        'config/2d_unet_MRI_Oxy_tradSplit_adam_10e5_dice.json'
         ).run_experiment(
             train_history_log=True,
             model_checkpoint_period=1,
