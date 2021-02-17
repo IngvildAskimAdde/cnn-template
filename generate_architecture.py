@@ -37,10 +37,10 @@ if __name__ == "__main__":
         # When dropout_rate = 0, there are no dropout layers.
         # Dropout layers are placed after each maxpooling layer and after concatenation in the skip-connection
         kernel=3, # size of the kernel of every convolutional layer
-        stride=1, # stride use in the upconv layer
+        stride=2, # stride use in the upconv layer. NB! Use stride=2 if you have images of two different sizes.
         n_class=2 # number of labels
     )
-
+    """
     # Densenet
     generate_densenet_2d_json(
         '../architecture.json', # the filename
@@ -78,3 +78,4 @@ if __name__ == "__main__":
         stride=2,
         n_class=2
     )
+    """
