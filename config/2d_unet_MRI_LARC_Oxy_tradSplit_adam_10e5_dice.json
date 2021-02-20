@@ -10,13 +10,13 @@
             "shuffle": true,
             "fold_prefix": "",
             "train_folds": [
-              "train/512", "train/256"
+              "train/352", "train/256"
             ],
             "val_folds": [
-                "val/512", "val/256"
+                "val/352", "val/256"
             ],
             "test_folds": [
-                "test/512", "test/256"
+                "test/352", "test/256"
             ],
             "preprocessors": [
                 {
