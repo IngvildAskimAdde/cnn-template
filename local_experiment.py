@@ -12,9 +12,9 @@ from deoxys.utils import read_file
 
 if __name__ == '__main__':
     Experiment(
-        log_base_path='../../hn_perf/Unet_Oxy_tradSpit_test'
+        log_base_path='../../hn_perf/Unet_Oxy_kfold_test'
         ).from_full_config(
-        'config/local_2d_unet_MRI_Oxy_tradSplit_adam_10e5_dice.json'
+        'config/2d_unet_Oxy_kfold_valFold1.json'
         ).run_experiment(
             train_history_log=True,
             model_checkpoint_period=1,
