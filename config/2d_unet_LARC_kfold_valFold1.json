@@ -8,7 +8,7 @@
             "y_name": "target_an",
             "batch_cache": 10,
             "shuffle": true,
-            "fold_prefix": "",
+            "fold_prefix": "fold",
             "train_folds": [
               "2/352", "3/352", "4/352", "4/256", "5/352", "5/256"
             ],
