@@ -23,7 +23,11 @@
                     "class_name": "ImageNormalizerPreprocessor"
                 }
             ],
-            "augmentations": []
+            "augmentations": [
+              {
+                    "class_name": "ImageAugmentation2D",
+                    "config": {}
+            }]
         }
     },
     "train_params": {
