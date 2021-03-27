@@ -20,7 +20,8 @@
             ],
             "preprocessors": [
                 {
-                    "class_name": "ImageNormalizerPreprocessor"
+                    "class_name": "ImageNormalizerPreprocessor",
+                    "config": {"vmin": -2, "vmax": 2}
                 }
             ],
           "augmentations": [
