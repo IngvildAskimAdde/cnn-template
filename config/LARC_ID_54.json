@@ -2,7 +2,7 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/home/work/asln/hn_delin/traditionalSplit_LARC_MHZScore_TS.h5",
+            "filename": "/home/work/asln/hn_delin/traditionalSplit_LARC_TS_MHZScore.h5",
             "batch_size": 16,
             "x_name": "input",
             "y_name": "target_an",
