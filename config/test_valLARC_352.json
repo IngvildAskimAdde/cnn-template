@@ -1,0 +1,9 @@
+{
+    "config": {
+        "filename": "/home/work/asln/hn_delin/traditionalSplit_LARC_TS.h5",
+        "test_folds": [
+            "val/352"
+        ],
+        "fold_prefix": ""
+    }
+}
