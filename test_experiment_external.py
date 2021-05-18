@@ -7,7 +7,7 @@ as log file and perforamance plot.
 In addition, we can peek the result of 42 first images from prediction set.
 """
 
-from deoxys.experiment import Experiment#, ExperimentPipeline
+from deoxys.experiment import Experiment, ExperimentPipeline
 # from deoxys.utils import read_file
 import argparse
 import os
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     if not os.path.exists(log_folder + '_temp'):
          shutil.copytree(log_folder, log_folder + '_temp')
 
-    ex = Experiment(
+    ex = ExperimentPipeline(
         log_base_path=log_folder,
         temp_base_path=log_folder + '_temp'
     )
